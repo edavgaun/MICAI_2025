@@ -1,6 +1,6 @@
 # MICAI Analysis App (2025)
 
-<img src="https://github.com/edavgaun/MICAI_2025/blob/main/assets/banner.png" width=300>
+<img src="https://github.com/edavgaun/MICAI_2025/blob/main/assets/Banner.png" width=300>
 
 This repository was created to support the analysis of 15 years of data from the IEOM conference proceedings (2011–2025).
 
