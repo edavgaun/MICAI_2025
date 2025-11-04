@@ -1,6 +1,6 @@
 # 📊 MICAI Analysis App (2025)
 
-<img src="https://github.com/edavgaun/MICAI_2025/blob/main/assets/Banner.png" width=500>
+<img src="https://github.com/edavgaun/MICAI_2025/blob/main/assets/Banner.png" width=700>
 
 This repository was created to support the analysis made for the paper: 
 
