@@ -1,4 +1,4 @@
-# MICAI Analysis App (2025)
+# 📊 MICAI Analysis App (2025)
 
 <img src="https://github.com/edavgaun/MICAI_2025/blob/main/assets/Banner.png" width=500>
 
@@ -6,10 +6,24 @@ This repository was created to support the analysis made for the paper:
 
 **MICAI and the Making of AI in Mexico through 25 Years of Data-Driven Insight.**
 
-The project includes:
-- Interactive visualizations such as dynamic network graphs, bubble charts, 3D scatterplots, and word clouds.
-- Data exploration tools built with Python, Plotly, Seaborn, and Streamlit.
-- An accessible web application that allows users to explore patterns, trends, and insights from MICAI publications over time.
+This project provides a comprehensive, data-driven analysis of the field of Artificial Intelligence, focusing on the evolution of research as documented in the MICAI/Springer publication corpus from 2000 to 2024.
+
+**Key Components:**
+- Advanced NLP & Machine Learning Pipeline
+
+-- BERT-Based Sentiment Analysis: Utilizes the state-of-the-art BERT model to analyze the prevailing emotional or qualitative tone within the research abstracts, providing an insight into the confidence and focus of the research community over time.
+
+-- Temporal Topic Modeling (LDA): Deploys Latent Dirichlet Allocation (LDA) not just for general topic discovery, but specifically tracks the rise, fall, and merging of key AI research areas across different publication years, highlighting historical and emerging trends.
+
+- Data Visualization & Network Insights
+
+-- Dynamic Network Graphs (NetworkX): Creates interactive visualizations to map complex collaboration structures, showing connections between authors, institutions, and co-occurring keywords, which reveal the formation of influential research clusters.
+
+-- In-Depth Quantitative EDA: Uses Python (pandas, numpy, Plotly, Matplotlib, and Seaborn) to generate a full suite of charts, including frequency distributions, time-series plots, and geographic maps, to support all analytical findings.
+
+- Rigorous Data Preparation
+
+-- The project includes a robust multi-stage pipeline covering data extraction, aggressive cleaning, and preprocessing (including custom stop-word removal and Spacy-based tokenization) to ensure the high quality and reliability of the data feeding the BERT and Topic Models.
 
 ---
 
