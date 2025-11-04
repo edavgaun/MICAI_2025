@@ -11,19 +11,19 @@ This project provides a comprehensive, data-driven analysis of the field of Arti
 **Key Components:**
 - Advanced NLP & Machine Learning Pipeline
 
--- BERT-Based Sentiment Analysis: Utilizes the state-of-the-art BERT model to analyze the prevailing emotional or qualitative tone within the research abstracts, providing an insight into the confidence and focus of the research community over time.
+    - BERT-Based Sentiment Analysis: Utilizes the state-of-the-art BERT model to analyze the prevailing emotional or qualitative tone within the research abstracts, providing an insight into the confidence and focus of the research community over time.
 
--- Temporal Topic Modeling (LDA): Deploys Latent Dirichlet Allocation (LDA) not just for general topic discovery, but specifically tracks the rise, fall, and merging of key AI research areas across different publication years, highlighting historical and emerging trends.
+    - Temporal Topic Modeling (LDA): Deploys Latent Dirichlet Allocation (LDA) not just for general topic discovery, but specifically tracks the rise, fall, and merging of key AI research areas across different publication years, highlighting historical and emerging trends.
 
 - Data Visualization & Network Insights
 
--- Dynamic Network Graphs (NetworkX): Creates interactive visualizations to map complex collaboration structures, showing connections between authors, institutions, and co-occurring keywords, which reveal the formation of influential research clusters.
+    - Dynamic Network Graphs (NetworkX): Creates interactive visualizations to map complex collaboration structures, showing connections between authors, institutions, and co-occurring keywords, which reveal the formation of influential research clusters.
 
--- In-Depth Quantitative EDA: Uses Python (pandas, numpy, Plotly, Matplotlib, and Seaborn) to generate a full suite of charts, including frequency distributions, time-series plots, and geographic maps, to support all analytical findings.
+    - In-Depth Quantitative EDA: Uses Python (pandas, numpy, Plotly, Matplotlib, and Seaborn) to generate a full suite of charts, including frequency distributions, time-series plots, and geographic maps, to support all analytical findings.
 
 - Rigorous Data Preparation
 
--- The project includes a robust multi-stage pipeline covering data extraction, aggressive cleaning, and preprocessing (including custom stop-word removal and Spacy-based tokenization) to ensure the high quality and reliability of the data feeding the BERT and Topic Models.
+    - The project includes a robust multi-stage pipeline covering data extraction, aggressive cleaning, and preprocessing (including custom stop-word removal and Spacy-based tokenization) to ensure the high quality and reliability of the data feeding the BERT and Topic Models.
 
 ---
 
