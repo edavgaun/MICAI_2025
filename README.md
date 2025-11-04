@@ -30,7 +30,7 @@ This project provides a comprehensive, data-driven analysis of the field of Arti
 ## 🚀 Access the App
 
 You can explore the live app here:  
-**[Launch the App](https://)**
+**[Launch the App](https://micai-2025-app.streamlit.app/)**
 
 ---
 
