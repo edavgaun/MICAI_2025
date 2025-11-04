@@ -1,13 +1,15 @@
 # MICAI Analysis App (2025)
 
-<img src="https://github.com/edavgaun/MICAI_2025/blob/main/assets/Banner.png" width=300>
+<img src="https://github.com/edavgaun/MICAI_2025/blob/main/assets/Banner.png" width=500>
 
-This repository was created to support the analysis of 15 years of data from the IEOM conference proceedings (2011–2025).
+This repository was created to support the analysis made for the paper: 
+
+**MICAI and the Making of AI in Mexico through 25 Years of Data-Driven Insight.**
 
 The project includes:
 - Interactive visualizations such as dynamic network graphs, bubble charts, 3D scatterplots, and word clouds.
-- Data exploration tools built with Python, Plotly, Seaborn, ipywidgets, and Streamlit.
-- An accessible web application that allows users to explore patterns, trends, and insights from IEOM publications over time.
+- Data exploration tools built with Python, Plotly, Seaborn, and Streamlit.
+- An accessible web application that allows users to explore patterns, trends, and insights from MICAI publications over time.
 
 ---
 
@@ -23,17 +25,23 @@ You can explore the live app here:
 - `/Data` – CSV files containing conference proceedings data (2015–2024)
 - `/Modules` – Python scripts used for visualizations
 - `/assets` – Images and logos used for visualizations
-- `app.py` – Main Python Script to build the UMAP visualization
-- `app2.py` – Main Python Script to build the BoW visualizations
+- `app.py` – Main Python Script to build the Visualization's frame
 - `requirements.txt` – Python dependencies
 
-## 🛠 Technologies Used
+## 🛠 Libraries Used
 
-- Python 3.11
-- Pandas, Numpy, Matplotlib, Seaborn
-- Plotly, WordCloud, NetworkX
-- Scikit-learn
-- Streamlit for rendering
+- pandas (2.2.2+)
+- numpy (1.26.4+)
+- matplotlib (3.8.4+)
+- seaborn (0.13.2+)
+- scipy (1.14.0+)
+- networkx (3.3+)
+- gensim (4.3.3)
+- pyLDAvis (3.4.1+)
+- spacy (3.7.5+)
+- transformers (4.42.0+)
+- geopy (2.4.1+)
+- wordcloud (1.9.4+)
 
 ---
 
